@@ -1,9 +1,6 @@
 from django.views.generic import ListView, CreateView, DeleteView, DetailView, UpdateView,TemplateView
 from .models import Blog
 from django.urls import reverse_lazy
-import requests
-import json
-from django.shortcuts import render
 # Create your views here.
 class HomeView(ListView):
 	model = Blog
