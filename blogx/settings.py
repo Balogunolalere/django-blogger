@@ -30,7 +30,7 @@ SECRET_KEY = ')js&s+w4py@g=pdn6i_gv24$^i2cu-((ap(t7=%$*%_$qk&ka&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
